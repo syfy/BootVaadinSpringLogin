@@ -1,4 +1,4 @@
-package com.app.ui;
+package com.app;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpSession;
@@ -6,12 +6,15 @@ import javax.servlet.http.HttpSession;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
+import com.app.ui.LoginView;
+import com.app.ui.UserView;
 import com.vaadin.navigator.Navigator;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.WrappedHttpSession;
 import com.vaadin.server.WrappedSession;
+import com.vaadin.spring.annotation.SpringUI;
 import com.vaadin.ui.UI;
-
+@SpringUI
 public class AppUI extends UI {
 	/**
 	 * 

@@ -2,6 +2,7 @@ package com.app.ui;
 
 import org.springframework.context.ApplicationContext;
 
+import com.app.AppUI;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.PasswordField;
 import com.vaadin.ui.TextField;

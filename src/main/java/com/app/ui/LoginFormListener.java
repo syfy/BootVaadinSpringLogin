@@ -7,6 +7,7 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 
+import com.app.AppUI;
 import com.app.auth.AuthManager;
 import com.vaadin.navigator.Navigator;
 import com.vaadin.ui.Button;

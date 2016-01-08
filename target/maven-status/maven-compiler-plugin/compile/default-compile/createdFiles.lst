@@ -3,8 +3,8 @@ com\app\auth\AuthManager.class
 com\app\ui\LoginForm.class
 com\app\ui\UserView.class
 com\app\ui\LoginView.class
-VaadinSpringLoginApplication.class
 com\app\ui\AppUI.class
 com\app\ui\LogoutListener.class
+com\app\VaadinSpringLoginApplication.class
 com\app\auth\UserService.class
 com\app\config\AppConfig.class
